@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riverbend Yoga Studio - Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="yoga-logo_c.png" alt="Riverbend Yoga Studio logo" class="logo">
+      <h1>Workshops and Events</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Monthly Workshops</h2>
+      <figure>
+        <img src="yoga-workshop_c.png" alt="Group of students sitting on yoga mats in a circle during a workshop">
+        <figcaption>Students learning basic poses at our monthly beginner workshop.</figcaption>
+      </figure>
+      <ul>
+        <li>First Saturday: Yoga for Desk Workers (1:00 PM)</li>
+        <li>Second Sunday: Beginner Basics (2:00 PM)</li>
+        <li>Fourth Saturday: Balance and Mobility (1:00 PM)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Request a Spot</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Your Info</legend>
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </p>
+          <p>
+            <label for="contact">Preferred Contact Method:</label>
+            <select id="contact" name="contact" required>
+              <option value="">Choose one</option>
+              <option value="email">Email</option>
+              <option value="phone">Phone</option>
+              <option value="text">Text</option>
+            </select>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Class Interest</legend>
+          <p>
+            <label for="interest">Class or Event:</label>
+            <select id="interest" name="interest" required>
+              <option value="">Choose one</option>
+              <option value="gentle">Gentle Yoga</option>
+              <option value="vinyasa">Vinyasa</option>
+              <option value="restorative">Restorative Yoga</option>
+              <option value="private">Private Session</option>
+              <option value="workshop">Monthly Workshop</option>
+            </select>
+          </p>
+          <p>
+            <label for="level">Experience Level:</label>
+            <select id="level" name="level" required>
+              <option value="">Choose one</option>
+              <option value="beginner">Beginner</option>
+              <option value="some">Some Experience</option>
+              <option value="regular">Regular Student</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="35" required></textarea>
+          </p>
+        </fieldset>
+
+        <button type="submit">Send Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Riverbend Yoga Studio - 2026</p>
+  </footer>
+</body>
+</html>
