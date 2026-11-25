@@ -8,10 +8,8 @@
 </head>
 <body>
   <header>
-    <div class="brand">
-      <img src="yoga-logo_c.png" alt="Riverbend Yoga Studio logo" class="logo">
-      <h1>Classes and Services</h1>
-    </div>
+    <img src="yoga-logo_c.png" alt="Riverbend Yoga Studio logo">
+    <h1>Classes and Services</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -66,10 +64,25 @@
         <li>Private Session: $75</li>
       </ul>
     </section>
+
+    <section>
+      <h2>Pick Your Favorite Class</h2>
+      <label for="favorite-class">Choose a class to save:</label>
+      <select id="favorite-class">
+        <option value="">-- Select a class --</option>
+        <option value="gentle">Gentle Yoga</option>
+        <option value="vinyasa">Vinyasa</option>
+        <option value="restorative">Restorative Yoga</option>
+      </select>
+      <button type="button" id="save-class-btn">Save Favorite</button>
+      <p id="class-output"></p>
+    </section>
   </main>
 
   <footer>
     <p>Riverbend Yoga Studio - 2026</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
